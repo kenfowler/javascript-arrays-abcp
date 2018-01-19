@@ -20,11 +20,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
 function removeElementFromBeginningOfArray(array) {
-  return array.slice[0,0]
+  return array.slice[0]
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.pop()
-  return array
+  return array.pop()
 }
 function removeElementFromEndOfArray(array) {
   return array.slice(0,array.length-1)
